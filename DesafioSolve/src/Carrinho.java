@@ -14,12 +14,6 @@ public class Carrinho {
 		System.out.println("Produto: ");
 		produtos.add(valores.produto = leitor.next());
 		
-		if (valores.produto.isEmpty()) {
-			System.out.println("!!!");
-			System.out.println("Por favor, escreva o nome do produto");
-			System.out.println("!!!");
-		}
-		
 		System.out.println("Valor: ");
 		valores.preco = leitor.nextFloat();
 		valores.valorT = valores.valorT + valores.preco;
@@ -32,12 +26,6 @@ public class Carrinho {
 			for (int j = 0; j < 9; j++) {
 				System.out.println("Produto: ");
 				produtos.add(valores.produto = leitor.next());
-				
-				if (valores.produto.isEmpty()) {
-					System.out.println("!!!");
-					System.out.println("Por favor, escreva o nome do produto");
-					System.out.println("!!!");
-				}
 				
 				System.out.println("Valor: ");
 				valores.preco = leitor.nextFloat();
